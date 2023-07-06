@@ -41,8 +41,8 @@ public class DemoApplication {
       simpleDateFormat = new SimpleDateFormat(pattern);
       String stringNow = simpleDateFormat.format(new Date());
 
-      System.out.println("2: " + cnt);
-      return "2 Spring " + cnt++ + " " + stringNow + " on " + HOSTNAME;
+      System.out.println("2x: " + cnt);
+      return "2x Spring " + cnt++ + " " + stringNow + " on " + HOSTNAME;
     }
 
     public static void main(String[] args) {
